@@ -8,13 +8,13 @@ This project explores how to group music listeners based on their listening beha
 
 ## Dataset
 
-We used the [Spotify Streaming History Dataset from Kaggle](https://www.kaggle.com/datasets/sgoutami/spotify-streaming-history), which contains:
+I used the [Spotify Streaming History Dataset from Kaggle](https://www.kaggle.com/datasets/sgoutami/spotify-streaming-history), which contains:
 - `endTime`: when the song finished
 - `artistName`: name of the artist
 - `trackName`: name of the track
 - `msPlayed`: how long the song was played
 
-For this project, we focused on aggregating genre-level preferences.
+For this project, I focused on aggregating genre-level preferences.
 
 ---
 
@@ -34,7 +34,7 @@ For this project, we focused on aggregating genre-level preferences.
 
 ![Elbow Plot](spotify_elbow_plot_clean.png)
 
-We chose **k=3** because that’s where the curve begins to flatten.
+I chose **k=3** because that’s where the curve begins to flatten.
 
 ---
 
